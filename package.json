@@ -56,7 +56,7 @@
     "@xterm/xterm": "^5.5.0",
     "ai": "^3.3.4",
     "date-fns": "^3.6.0",
-    "diff": "^5.2.0",
+    "diff": "^5.2.2",
     "framer-motion": "^11.2.12",
     "isbot": "^4.1.0",
     "istextorbinary": "^9.5.0",
