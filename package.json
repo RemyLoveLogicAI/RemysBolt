@@ -54,7 +54,7 @@
     "@xterm/addon-fit": "^0.10.0",
     "@xterm/addon-web-links": "^0.11.0",
     "@xterm/xterm": "^5.5.0",
-    "ai": "^3.3.4",
+    "ai": "^5.0.52",
     "date-fns": "^3.6.0",
     "diff": "^5.2.2",
     "framer-motion": "^11.2.12",
@@ -90,12 +90,12 @@
     "typescript": "^5.5.2",
     "unified": "^11.0.5",
     "unocss": "^0.61.3",
-    "vite": "^5.4.19",
+    "vite": "^5.4.21",
     "vite-plugin-node-polyfills": "^0.22.0",
     "vite-plugin-optimize-css-modules": "^1.1.0",
     "vite-tsconfig-paths": "^4.3.2",
     "vitest": "^2.1.9",
-    "wrangler": "^3.63.2",
+    "wrangler": "^3.114.17",
     "zod": "^3.23.8"
   },
   "resolutions": {
