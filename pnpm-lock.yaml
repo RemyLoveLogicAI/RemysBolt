@@ -2641,8 +2641,8 @@ packages:
     resolution: {integrity: sha512-8QmQKqEASLd5nx0U1B1okLElbUuuttJ/AnYmRXbbbGDWh6uS208EjD4Xqq/I9wK7u0v6O08XhTWnt5XtEbR6Dg==}
     engines: {node: '>= 0.4'}
 
-  defu@6.1.4:
-    resolution: {integrity: sha512-mEQCMmwJu317oSz8CwdIOdwf3xMif1ttiM8LTufzc3g6kR+9Pe236twL8j3IYT1F7GfRgGcW6MWxzZjLIkuHIg==}
+  defu@6.1.6:
+    resolution: {integrity: sha512-f8mefEW4WIVg4LckePx3mALjQSPQgFlg9U8yaPdlsbdYcHQyj9n2zL2LJEA52smeYxOvmd/nB7TpMtHGMTHcug==}
 
   depd@2.0.0:
     resolution: {integrity: sha512-g7nH6P6dyDioJogAAGprGpCtVImJhpPk/roCzdb3fIh61/s/nPsfR6onyMwkCAR/OlC3yBC0lESvUoQEAssIrw==}
@@ -8039,7 +8039,7 @@ snapshots:
       has-property-descriptors: 1.0.2
       object-keys: 1.1.1
 
-  defu@6.1.4: {}
+  defu@6.1.6: {}
 
   depd@2.0.0: {}
 
@@ -11155,7 +11155,7 @@ snapshots:
   unconfig@0.3.13:
     dependencies:
       '@antfu/utils': 0.7.10
-      defu: 6.1.4
+      defu: 6.1.6
       jiti: 1.21.6
 
   undici-types@5.26.5: {}
@@ -11171,7 +11171,7 @@ snapshots:
 
   unenv@2.0.0-rc.14:
     dependencies:
-      defu: 6.1.4
+      defu: 6.1.6
       exsolve: 1.0.8
       ohash: 2.0.11
       pathe: 2.0.3
