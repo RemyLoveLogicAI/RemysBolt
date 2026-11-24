@@ -54,7 +54,7 @@
     "@xterm/addon-fit": "^0.10.0",
     "@xterm/addon-web-links": "^0.11.0",
     "@xterm/xterm": "^5.5.0",
-    "ai": "^5.0.52",
+    "ai": "^3.4.33",
     "date-fns": "^3.6.0",
     "diff": "^5.2.2",
     "framer-motion": "^11.2.12",
@@ -101,7 +101,15 @@
   "pnpm": {
     "overrides": {
       "sharp": ">=0.35.4",
-      "browserslist": ">=4.28.7"
+      "browserslist": ">=4.28.7",
+      "zod": "^3.25.28",
+      "@remix-run/server-runtime": "2.17.5",
+      "@remix-run/react": "2.17.5",
+      "@remix-run/cloudflare": "2.17.5",
+      "@remix-run/cloudflare-pages": "2.17.5",
+      "@remix-run/dev": "2.17.5",
+      "@remix-run/node": "2.17.5",
+      "@remix-run/router": "1.23.3"
     }
   },
   "resolutions": {
