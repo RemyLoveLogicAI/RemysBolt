@@ -35,8 +35,8 @@ importers:
         specifier: ^6.0.2
         version: 6.0.2
       '@codemirror/lang-css':
-        specifier: ^6.2.1
-        version: 6.2.1(@codemirror/view@6.28.4)
+        specifier: ^6.3.1
+        version: 6.3.1(@codemirror/view@6.28.4)
       '@codemirror/lang-html':
         specifier: ^6.4.9
         version: 6.4.9
@@ -554,8 +554,8 @@ packages:
   '@codemirror/lang-cpp@6.0.2':
     resolution: {integrity: sha512-6oYEYUKHvrnacXxWxYa6t4puTlbN3dgV662BDfSH8+MfjQjVmP697/KYTDOqpxgerkvoNm7q5wlFMBeX8ZMocg==}
 
-  '@codemirror/lang-css@6.2.1':
-    resolution: {integrity: sha512-/UNWDNV5Viwi/1lpr/dIXJNWiwDxpw13I4pTUAsNxZdg6E0mI2kTQb0P2iHczg1Tu+H4EBgJR+hYhKiHKko7qg==}
+  '@codemirror/lang-css@6.3.1':
+    resolution: {integrity: sha512-kr5fwBGiGtmz6l0LSJIbno9QrifNMUusivHbnA1H6Dmqy4HZFte3UAICix1VuKo0lMPKQr2rqB+0BkKi/S3Ejg==}
 
   '@codemirror/lang-html@6.4.9':
     resolution: {integrity: sha512-aQv37pIMSlueybId/2PVSP6NPnmurFDVmZwzc7jszd2KAF8qd4VBbvNYPXWQq90WIARjsdVkPbw29pszmHws3Q==}
@@ -6114,7 +6114,7 @@ snapshots:
       '@codemirror/language': 6.10.2
       '@lezer/cpp': 1.1.2
 
-  '@codemirror/lang-css@6.2.1(@codemirror/view@6.28.4)':
+  '@codemirror/lang-css@6.3.1(@codemirror/view@6.28.4)':
     dependencies:
       '@codemirror/autocomplete': 6.17.0(@codemirror/language@6.10.2)(@codemirror/state@6.4.1)(@codemirror/view@6.28.4)(@lezer/common@1.2.1)
       '@codemirror/language': 6.10.2
@@ -6127,7 +6127,7 @@ snapshots:
   '@codemirror/lang-html@6.4.9':
     dependencies:
       '@codemirror/autocomplete': 6.17.0(@codemirror/language@6.10.2)(@codemirror/state@6.4.1)(@codemirror/view@6.28.4)(@lezer/common@1.2.1)
-      '@codemirror/lang-css': 6.2.1(@codemirror/view@6.28.4)
+      '@codemirror/lang-css': 6.3.1(@codemirror/view@6.28.4)
       '@codemirror/lang-javascript': 6.2.2
       '@codemirror/language': 6.10.2
       '@codemirror/state': 6.4.1
@@ -6173,7 +6173,7 @@ snapshots:
 
   '@codemirror/lang-sass@6.0.2(@codemirror/view@6.28.4)':
     dependencies:
-      '@codemirror/lang-css': 6.2.1(@codemirror/view@6.28.4)
+      '@codemirror/lang-css': 6.3.1(@codemirror/view@6.28.4)
       '@codemirror/language': 6.10.2
       '@codemirror/state': 6.4.1
       '@lezer/common': 1.2.1
