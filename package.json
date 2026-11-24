@@ -39,10 +39,10 @@
     "@codemirror/search": "^6.5.6",
     "@codemirror/state": "^6.4.1",
     "@codemirror/view": "^6.28.4",
-    "@iconify-json/ph": "^1.1.13",
+    "@iconify-json/ph": "^1.2.2",
     "@iconify-json/svg-spinners": "^1.1.2",
     "@lezer/highlight": "^1.2.0",
-    "@nanostores/react": "^0.7.2",
+    "@nanostores/react": "^1.0.0",
     "@radix-ui/react-dialog": "^1.1.1",
     "@radix-ui/react-dropdown-menu": "^2.1.1",
     "@remix-run/cloudflare": "^2.15.0",
@@ -54,7 +54,7 @@
     "@xterm/addon-fit": "^0.10.0",
     "@xterm/addon-web-links": "^0.11.0",
     "@xterm/xterm": "^5.5.0",
-    "ai": "^5.0.52",
+    "ai": "^3.4.33",
     "date-fns": "^3.6.0",
     "diff": "^5.2.2",
     "framer-motion": "^11.2.12",
@@ -67,7 +67,7 @@
     "react-hotkeys-hook": "^4.5.0",
     "react-markdown": "^9.0.1",
     "react-resizable-panels": "^2.0.20",
-    "react-toastify": "^10.0.5",
+    "react-toastify": "^10.0.6",
     "rehype-raw": "^7.0.0",
     "rehype-sanitize": "^6.0.0",
     "remark-gfm": "^4.0.0",
@@ -78,7 +78,7 @@
   },
   "devDependencies": {
     "@blitz/eslint-plugin": "0.1.0",
-    "@cloudflare/workers-types": "^4.20240620.0",
+    "@cloudflare/workers-types": "^4.20260702.1",
     "@remix-run/dev": "^2.14.0",
     "@types/diff": "^5.2.1",
     "@types/react": "^18.2.20",
@@ -101,7 +101,15 @@
   "pnpm": {
     "overrides": {
       "sharp": ">=0.35.4",
-      "browserslist": ">=4.28.7"
+      "browserslist": ">=4.28.7",
+      "zod": "^3.25.28",
+      "@remix-run/server-runtime": "2.17.5",
+      "@remix-run/react": "2.17.5",
+      "@remix-run/cloudflare": "2.17.5",
+      "@remix-run/cloudflare-pages": "2.17.5",
+      "@remix-run/dev": "2.17.5",
+      "@remix-run/node": "2.17.5",
+      "@remix-run/router": "1.23.3"
     }
   },
   "resolutions": {
