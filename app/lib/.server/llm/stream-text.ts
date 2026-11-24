@@ -29,7 +29,7 @@ export function streamText(messages: Messages, env: Env, options?: StreamingOpti
     headers: {
       'anthropic-beta': 'max-tokens-3-5-sonnet-2024-07-15',
     },
-    messages: convertToCoreMessages(messages),
+    messages: convertToCoreMessages(messages as unknown as Parameters<typeof convertToCoreMessages>[0]),
     ...options,
   });
 }
